@@ -22,3 +22,10 @@ print(a[1, :])
 print(a[0,1], a[1,1])
 #OU
 print(a[:,1]) # Dessa forma, volta como lista
+
+
+produtos = np.array([["celular", "televisao"] ,[1000 , 2000]])
+
+#Quero selecionar o valor da TV
+print(produtos[:,1])
+
