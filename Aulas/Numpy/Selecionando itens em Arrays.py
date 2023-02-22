@@ -28,4 +28,3 @@ produtos = np.array([["celular", "televisao"] ,[1000 , 2000]])
 
 #Quero selecionar o valor da TV
 print(produtos[:,1])
-
