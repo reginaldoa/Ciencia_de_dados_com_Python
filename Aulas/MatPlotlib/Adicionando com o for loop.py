@@ -22,4 +22,14 @@ plt.ylabel("US$")   # Uma legenda na vertical
 
 
 plt.legend()
+
+#Salvando gráfico (não colocar depois do "show", para salvar da forma certa.)
+plt.savefig("Country.png")
+plt.savefig("Country.pdf")
+
+
 plt.show()
+
+
+
+
